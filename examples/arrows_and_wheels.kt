@@ -16,6 +16,7 @@ import java.util.List
 import java.util.ArrayList
 import java.util.Random
 import java.awt.Color
+import java.awt.RenderingHints
 
 class Wheel(
         var center : Point,
@@ -61,20 +62,24 @@ fun wheels() {
     val timer = Timer("main")
     timer.repeatEvery(10) {
         val speed = 1.2.deg
-        wheel1.angle -= speed
-        wheel2.angle -= speed
+        wheel1.angle += speed
+        wheel2.angle += speed
 
         val dx = speed * wheel1.radius
         wheel1.center += Point(dx, 0.0)
         wheel2.center += Point(dx, 0.0)
         frame.repaint()
 
-        if (wheel2.center.x - wheel2.radius > frame.getWidth()) cancel()
+        if (wheel2.center.x - wheel2.radius > frame.getWidth()) {
+//            cancel()
+            wheel1.center = Point(-wheel2.radius, 200.0)
+            wheel2.center = wheel1.center - Point(250.0, 0.0)
+        }
     }
     frame.show()
 }
 
-fun main(args : Array<String>) {
+fun arrows() {
     val width = 800
     val height = 600
     val arrows = Array(10) {
@@ -85,13 +90,13 @@ fun main(args : Array<String>) {
         val panel = drawPanel {
             for (arr in arrows) {
                 // Arrows
-//                setColor(Color.BLACK)
-//                drawLine(arr)
-//                val da = 7.deg
-//                setColor(Color.RED)
-//                val r = 30.0
-//                drawLine(arr.b, arr.b + polarPoint(r, arr.angle - da - PI))
-//                drawLine(arr.b, arr.b + polarPoint(r, arr.angle + da - PI))
+                                setColor(Color.BLACK)
+                                drawLine(arr)
+                                val da = 7.deg
+                                setColor(Color.RED)
+                                val r = 30.0
+                                drawLine(arr.b, arr.b + polarPoint(r, arr.angle - da - PI))
+                                drawLine(arr.b, arr.b + polarPoint(r, arr.angle + da - PI))
 
                 // Compass circles
 //                val r = (arr.abs / 2).i
@@ -107,18 +112,23 @@ fun main(args : Array<String>) {
 //                drawCircle(arr.a, r.toDouble())
             }
         }.mouse
-            .moved { e ->
-                val p = Point(e.getPoint()!!)
-                for (i in arrows.indices) {
-                    val arr = arrows[i]
-                    arrows[i] = arr ofAngle ((p - arr.a).angle)
-                }
-                repaint()
+                .moved { e ->
+            val p = Point(e.getPoint()!!)
+            for (i in arrows.indices) {
+                val arr = arrows[i]
+                arrows[i] = arr ofAngle ((p - arr.a).angle)
             }
-            .done
+            repaint()
+        }
+                .done
         add(panel)
     }
     frame.show()
+}
+
+fun main(args : Array<String>) {
+    arrows()
+//    wheels()
 }
 
 
@@ -185,12 +195,12 @@ fun Segment.ofAngle(ang : Double) = Segment(a, a + polarPoint(abs, ang))
 
 ///////////////////////
 
-fun Graphics.drawCircle(center : demo.Point, r : Double) {
+fun Graphics.drawCircle(center : Point, r : Double) {
     val intR = (r * 2).toInt()
     drawOval((center.x - r).toInt(), (center.y - r).toInt(), intR, intR)
 }
 
-fun Graphics.fillCircle(center : demo.Point, r : Double) {
+fun Graphics.fillCircle(center : Point, r : Double) {
     val intR = (r * 2).toInt()
     fillOval((center.x - r).toInt(), (center.y - r).toInt(), intR, intR)
 }
@@ -221,6 +231,7 @@ fun Double.toDeg() = (this * 180.0 / PI).i
 
 fun mainFrame(title : String, init : JFrame.() -> Unit) : JFrame {
     val frame = JFrame(title)
+
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
     frame.init()
     return frame
@@ -229,9 +240,14 @@ fun mainFrame(title : String, init : JFrame.() -> Unit) : JFrame {
 fun drawPanel(paint : Graphics2D.() -> Unit) : JPanel {
     return object : JPanel() {
 
+
         protected override fun paintComponent(g : Graphics?) {
             super<JPanel>.paintComponent(g)
-            (g as Graphics2D).paint()
+            val g2d = g as Graphics2D
+            g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+                    RenderingHints.VALUE_ANTIALIAS_ON);
+
+            g2d.paint()
         }
     }
 }
