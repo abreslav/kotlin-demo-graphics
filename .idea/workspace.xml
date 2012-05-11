@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c37f91a-66df-452b-a62e-0952503278c6" name="Default" comment="workspace.xml excluded">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ball-no-model.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ball-with-model/Point.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ball-with-model/ball.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/ball-with-model/graphics.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javax/swing/annotations.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main.kt" afterPath="$PROJECT_DIR$/examples/arrows_and_wheels.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="2c37f91a-66df-452b-a62e-0952503278c6" name="Default" comment="Balls added">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/graphics.kt" afterPath="$PROJECT_DIR$/src/graphics.kt" />
     </list>
     <ignored path="kotlin-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +68,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -84,64 +78,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ball.kt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/ball-with-model/ball.kt">
+      <file leaf-file-name="paths.kt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/paths.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
+            <state line="171" column="1" selection-start="3997" selection-end="3997" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="arrows_and_wheels.kt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/arrows_and_wheels.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Component.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/Component.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1103" column="0" selection-start="36218" selection-end="36218" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="364" column="29" selection-start="17894" selection-end="17894" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GradientPaint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/GradientPaint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="11" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.0">
+            <state line="330" column="9" selection-start="8827" selection-end="9108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Point.kt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/ball-with-model/Point.kt">
+        <entry file="file://$PROJECT_DIR$/src/Point.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphics.kt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/ball-with-model/graphics.kt">
+      <file leaf-file-name="graphics.kt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/graphics.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+            <state line="14" column="1" selection-start="436" selection-end="436" vertical-scroll-proportion="0.34941763">
               <folding />
             </state>
           </provider>
@@ -164,10 +131,10 @@
         <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/arrows_and_wheels.kt" />
         <option value="$PROJECT_DIR$/ball-no-model.kt" />
-        <option value="$PROJECT_DIR$/src/Point.kt" />
-        <option value="$PROJECT_DIR$/src/graphics.kt" />
-        <option value="$PROJECT_DIR$/src/ball.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Point.kt" />
+        <option value="$PROJECT_DIR$/src/ball.kt" />
+        <option value="$PROJECT_DIR$/src/graphics.kt" />
       </list>
     </option>
   </component>
@@ -185,22 +152,70 @@
             <id />
           </State>
           <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
             <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
           </State>
           <State>
             <id>Groovy</id>
           </State>
           <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
             <id>Portability issues</id>
           </State>
           <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
             <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Security issues</id>
           </State>
           <State>
             <id>Threading issues</id>
           </State>
           <State>
             <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>XML</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -237,6 +252,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,11 +290,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javax" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-workshop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="swing" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paths.kt" />
+              <option name="myItemType" value="org.jetbrains.jet.plugin.projectView.JetFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin-workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,16 +360,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -340,19 +383,20 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="editor.preferences.smartKeys" />
+    <property name="options.lastSelected" value="application.passwordSafe" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -362,7 +406,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ball">
+  <component name="RunManager" selected="Kotlin.path">
     <configuration default="false" name="namespace" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
       <module name="kotlin-workshop" />
       <envs />
@@ -394,6 +438,25 @@
       <envs />
       <JetRunConfigurationSettings>
         <option name="mainClassName" value="ball.namespace" />
+        <option name="programParameters" value="" />
+        <option name="vmParameters" value="" />
+        <option name="workingDirectory" value="" />
+      </JetRunConfigurationSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="path" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="kotlin-workshop" />
+      <envs />
+      <JetRunConfigurationSettings>
+        <option name="mainClassName" value="path.namespace" />
         <option name="programParameters" value="" />
         <option name="vmParameters" value="" />
         <option name="workingDirectory" value="" />
@@ -447,24 +510,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -490,6 +535,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -541,10 +604,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.namespace" />
       <item index="1" class="java.lang.String" itemvalue="Kotlin.demo" />
       <item index="2" class="java.lang.String" itemvalue="Kotlin.ball" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.path" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -588,19 +652,35 @@
       <created>1336356787628</created>
       <updated>1336356787628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove workspace.xml">
+      <created>1336680662005</created>
+      <updated>1336680662005</updated>
+    </task>
+    <task id="LOCAL-00005" summary="workspace.xml excluded">
+      <created>1336680699943</created>
+      <updated>1336680699943</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Balls added">
+      <created>1336680728794</created>
+      <updated>1336680728794</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Paths added">
+      <created>1336716469324</created>
+      <updated>1336716469324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="22" width="1628" height="1028" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.49810368" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.49810368" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996207" sideWeight="0.6703418" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -609,8 +689,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14620253" sideWeight="0.6702356" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762313" sideWeight="0.49747154" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14620253" sideWeight="0.6723769" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32762313" sideWeight="0.49747154" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -655,7 +735,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml excluded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paths added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -670,7 +750,10 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial version + IDEA project" />
     <MESSAGE value="Arrows added" />
+    <MESSAGE value="Remove workspace.xml" />
     <MESSAGE value="workspace.xml excluded" />
+    <MESSAGE value="Balls added" />
+    <MESSAGE value="Paths added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -680,112 +763,88 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javax/swing/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ball-no-model.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/font/LineMetrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="860" selection-end="860" vertical-scroll-proportion="0.3327787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/FontMetrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="442" column="21" selection-start="17711" selection-end="17711" vertical-scroll-proportion="0.3327787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="765" column="25" selection-start="35170" selection-end="35170" vertical-scroll-proportion="0.3327787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="966" column="16" selection-start="36990" selection-end="36990" vertical-scroll-proportion="0.65723795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ball-with-model/graphics.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ball-with-model/Point.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/GradientPaint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="11" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1103" column="0" selection-start="36218" selection-end="36218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="29" selection-start="17894" selection-end="17894" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="413" column="47" selection-start="18803" selection-end="18803" vertical-scroll-proportion="0.7321131">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/arrows_and_wheels.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="0" selection-start="6866" selection-end="6988" vertical-scroll-proportion="0.5669565">
-          <folding />
-        </state>
+        <state line="413" column="47" selection-start="18803" selection-end="18803" vertical-scroll-proportion="0.7321131" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/Graphics2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="14" selection-start="19178" selection-end="19178" vertical-scroll-proportion="0.75792986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ball-with-model/ball.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="403" column="14" selection-start="19178" selection-end="19178" vertical-scroll-proportion="0.75792986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ball-with-model/ball.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.58764607" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="364" column="29" selection-start="17894" selection-end="17894" vertical-scroll-proportion="0.29716194" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/GradientPaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="11" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.53422374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ball-with-model/Point.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="210" selection-end="210" vertical-scroll-proportion="0.2003339" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ball-with-model/graphics.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="379" selection-end="379" vertical-scroll-proportion="0.30050084" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/event/MouseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="16" selection-start="1719" selection-end="1719" vertical-scroll-proportion="0.42595673" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/event/MouseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.3327787" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/event/MouseMotionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="17" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.21348314" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/src.jar!/src/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5595" column="58" selection-start="200164" selection-end="200164" vertical-scroll-proportion="0.8951311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Point.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/arrows_and_wheels.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="9" selection-start="8827" selection-end="9108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paths.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="1" selection-start="3997" selection-end="3997" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphics.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="436" selection-end="436" vertical-scroll-proportion="0.34941763">
           <folding />
         </state>
       </provider>

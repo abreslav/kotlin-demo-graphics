@@ -11,8 +11,7 @@ fun Graphics.drawCircle(center : Point, radius : Int) {
 }
 
 fun r(it : () -> Unit) : Runnable = object : Runnable {
-        public override fun run() {
-            it()
-        }
-
+    public override fun run() {
+        it()
     }
+}
